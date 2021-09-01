@@ -1,0 +1,8 @@
+# Author Leonel Jeffrey Nzeukeng Kamga
+# Date: 01/09/2021
+# Version: 3.9
+
+from langdetect import detect
+text = input("Enter any text in any language: ")
+print(detect(text))
+
