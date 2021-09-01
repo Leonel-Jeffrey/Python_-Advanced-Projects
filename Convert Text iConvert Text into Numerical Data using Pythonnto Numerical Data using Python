@@ -1,0 +1,22 @@
+# Author Leonel Jeffrey Nzeukeng Kamga
+# Date: 01/09/2021
+# Version: 3.9
+
+from sklearn.feature_extraction.text import CountVectorizer
+vect = CountVectorizer()
+text = ["Hi, how are you", "I hope you are doing good", "My name is Aman Kharwal"]
+vect.fit(text)
+
+train = vect.transform(text)
+train.toarray()
+
+
+
+
+
+
+
+
+
+
+
