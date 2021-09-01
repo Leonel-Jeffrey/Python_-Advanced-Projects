@@ -1,0 +1,7 @@
+# Author Leonel Jeffrey Nzeukeng Kamga
+# Date: 01/09/2021
+# Version: 3.9
+
+a = "Happy Holi 😀 May this festival of colours bring you happiness, love and joy.🥰 Stay safe everyone Smiling face with smiling eyes"
+a = a.encode('ascii', 'ignore').decode()
+print(a)
