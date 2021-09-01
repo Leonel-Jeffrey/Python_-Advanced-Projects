@@ -12,3 +12,11 @@ class MaximumProfitFinder:
             else:
                 return max(cost(i+1, n, True) - prices[i], cost(i + 1, n, prev))
         return cost(0, len(prices), False)
+
+profit = MaximumProfitFinder()
+prices = [10, 20, 30, 40, 50]
+print(profit.maximumProfit(prices, fees=15))
+
+
+
+
