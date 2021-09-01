@@ -1,0 +1,11 @@
+# Author Leonel Jeffrey Nzeukeng Kamga
+# Date: 01/09/2021
+# Version: 3.9
+
+from countryinfo import CountryInfo
+country = CountryInfo("India")
+print(country.alt_spellings())
+print(country.capital())
+print(country.currencies())
+print(country.languages())
+print(country.borders())
