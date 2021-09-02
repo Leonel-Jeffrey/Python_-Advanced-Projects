@@ -1,0 +1,8 @@
+# Author Leonel Jeffrey Nzeukeng Kamga
+# Date: 01/09/2021
+# Version: 3.9
+
+from gingerit.gingerit import GingerIt
+text = input("Enter a sentence >>: ")
+corrected_text = GingerIt().parse(text)
+print(corrected_text['result'])
